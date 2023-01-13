@@ -1,0 +1,34 @@
+.block {
+  background-color: blue;
+}
+
+.block__element {
+  background-color: red;
+}
+
+.block__element--modifier {
+  background-color: #09c;
+}
+
+.component--reversed {
+  background: white;
+  border-color: lightgray;
+}
+
+.component--reversed__child-element {
+  background: rebeccapurple;
+}
+
+.bgr-blue {
+  background-color: #357edd;
+}
+
+.bgr-blue {
+  background-color: #357edd;
+}
+
+.grid-12 {
+  display: -ms-grid;
+  display: grid;
+}
+/*# sourceMappingURL=index.css.map */

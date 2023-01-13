@@ -1,0 +1,30 @@
+.block {
+    background-color: blue;
+
+    &__element {
+        background-color: red;
+
+        &--modifier {
+            background-color: #09c;
+        }
+    }
+}
+
+.component {
+    &--reversed {
+        background: white;
+        border-color: lightgray;
+
+        &__child-element {
+            background: rebeccapurple;
+        }
+    }
+}
+
+.bgr-blue {
+    background-color: #357edd;
+}
+.bgr-blue { background-color: #357edd; }
+.grid-12 {
+    display: grid;
+}

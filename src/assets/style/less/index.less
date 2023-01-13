@@ -1,0 +1,23 @@
+@main: #000;
+.color {
+  &__color {
+    color: @main;
+    &--m {
+      color: @main;
+    }
+  }
+}
+.colors(@one) {
+  color: @one;
+}
+.x {
+  .colors(#000);
+}
+h2 {
+    .style;
+    font-style: italic;
+ }
+ 
+ .style {
+    background: green;
+ }

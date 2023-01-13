@@ -1,0 +1,5 @@
+.header-group:has(h2):has(.subtitle) h2 {
+  margin: 0 0 0.2rem 0;
+  /* reduce spacing on header, because subtitle will handle it */
+}
+/*# sourceMappingURL=index.css.map */

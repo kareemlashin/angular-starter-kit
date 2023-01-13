@@ -1,0 +1,28 @@
+$data:1;
+
+.css {
+    @if $data==1 {
+        color: red;
+    }
+
+    @else if $data==2 {
+        color: #09c;
+
+    }
+
+    @else {
+        color: #000;
+
+    }
+}
+$da:1,2,3,45,5;
+@each $var in $da {
+    .color-#{$var}{
+        content: '#09#{$var}';
+    }
+}
+@for $VarName from 1 through 25 {
+    .p-#{$VarName}{
+        padding: $VarName+px;
+    }
+}
